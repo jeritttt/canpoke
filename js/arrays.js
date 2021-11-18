@@ -11,7 +11,7 @@ while (eleccion !== 4) {
     eleccion = Number(prompt(productos));
 
 
-    if ( eleccion < 4 && eleccion > 0) {
+    if (eleccion < 4 && eleccion > 0) {
         switch (eleccion) {
             case 1:
                 const diseño = prompt("Que diseño tenes en mente?");
@@ -39,9 +39,6 @@ while (eleccion !== 4) {
             case 3:
                 for (let precio of listaPrecio) {
                     console.log(`Diseño: ${precio.diseño} -- Tamaño: ${precio.tamaño} -- Lugar: ${precio.lugar} -- Turno: ${precio.turno}`);
-                    break;
-                    default: 
-                    break;
                 }
         }
 
